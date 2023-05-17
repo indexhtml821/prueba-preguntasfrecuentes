@@ -1,19 +1,15 @@
-import REACT from 'react'
-import { Text,Reply } from '@botonic/react'
+import React from 'react'
+import { Text, Reply } from '@botonic/react'
 
-
-export default class extends REACT.Component {
-
+export default class extends React.Component {
     render() {
         return (
             <>
-                <Text>
-                    Bienvenido a la página de METICS
-                </Text>
+                <Text>Bienvenido a METICS!</Text>
                 <Text>
                     ¿Cómo podemos ayudarle?
-                    <Reply payload='contacto'>Información de contacto</Reply>
-                    <Reply payload='inscripcion'>Inscribirse en un curso de Competencias Digitales</Reply>
+                    <Reply payload='contacto'>Contacto</Reply>
+                    <Reply payload='inscripcion'>Inscripcion</Reply>
                 </Text>
             </>
         )
