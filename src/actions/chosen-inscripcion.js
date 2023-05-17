@@ -8,15 +8,13 @@ import {
   Title,
   Subtitle,
 } from '@botonic/react'
-//import { Link } from 'react-router-dom';
 
 export default class extends React.Component {
   render() {
 
-    const manejarClick = ()=>{
-      event.preventDefault();
-      window
-    };
+  
+
+    // @varcourses se guarda la información de cursos en caso de tenerlos de manera local
     const courses = [
       {
         nombre: 'Comunicación Coherente, Asertiva y Empática en la Docencia',
