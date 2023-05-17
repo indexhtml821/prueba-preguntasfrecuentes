@@ -1,3 +1,8 @@
+# Uso del bot en desarrollo
+```bash
+$ botonic serve
+```
+
 
 # Estructura del proyecto:
 
@@ -17,3 +22,4 @@ se pueden crear tests para verificar el correcto funcionamiento del bot creado.
 
 ## …/: 
 los otros archivos y carpetas es recomendable son archivos de configuración de babel y Botonic. Se recomienda no modificar estos archivos
+
